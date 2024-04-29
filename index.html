@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RockStar Games</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+	<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+	<script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <meta http-equiv="pragma" content="no-cache" />
+</head>
+<body class="body">
+	<audio src='de.mp3' autoplay='autoplay'></audio>
+	<header class="header" >
+		<div class="container container__header">
+		<img class="header__img" src="img/favicon.png">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">Главная</li>
+					<li class="nav__item">Новинки</li>
+					<li class="nav__item">Трейлеры</li>
+					<li class="nav__item">Рейтинг</li>
+					<li class="nav__item"><a href="page/old.html" class="link">О нас</a></li>
+					<li><time></li>
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+<main class="main">
+		<section class="hero-block">
+			<div class="container container_hero-block">
+				<img src="img/favicon.png" class="hero-block__img">
+				<div class="hero-block__content">
+					<h1 class="hero-block__title">RockStar Games</h1>
+					<a href="page/old.html" class="hero-block__link">О нас</a>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container container_about">
+				<h2 class="about__title">О нас</h2>
+				<div class="about__content">
+				<p class="about__text">Мы - много-милионная компания разработки игр и наша главная цель - выпустить GTA6</p>
+			 	<img class="about__img" src="img/image.png">
+			</div>
+
+		</section>
+		<section class="video">
+			<div class="container container_video">
+				<h2 class="video__title">Видосик</h2>
+				
+				<iframe class="video__video" src="https://www.youtube.com/embed/NMWkEt_KF6g" title="Grand Theft Auto VI Trailer 2" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				
+			</div>
+		</section>
+		<section class="gallery">
+			<h2 class="gallery__title">Галерея ЫЫЫЫ</h2>
+			<ul class="gallery__list">
+				<li class="gallery__item"><a href="img/gal1.png" class="lightzoom">
+  				<img class="gallery_img" src="img/gal1.png" />
+</a>
+</li>
+				<li class="gallery__item"><a href="img/gal2.png" class="lightzoom">
+ 				 <img class="gallery_img" src="img/gal2.png" />
+</a>
+</li>
+				<li class="gallery__item"><a href="img/gal3.png" class="lightzoom">
+ 				 <img class="gallery_img" src="img/gal3.png" />
+</a>
+</li>
+				<li class="gallery__item"><a href="img/gal4.png" class="lightzoom">
+  				<img class="gallery_img" src="img/gal4.png" />
+</a>
+</li>
+				
+			</ul>
+		</section>
+		<div class="formcont">
+			<img class="img" src="img/10pls.png">
+		<section class="form">
+		<form id="contactForm">
+    <input type="hidden" name="Spotymine9@gmail.com">
+    <p>Оцените сайт (Все отзывы будут добавлены после проверки и анонимны)</p>
+    <textarea Title="Отзыв о сайте" name="message"></textarea>
+    <input class="ink" type="submit" value="Отправить">
+</form>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
+    emailjs.sendForm('service_jafrfw9', 'template_ue1iyr7', this)
+        .then(function() {
+        
+        }, function(error) {
+            alert('Ошибка отправки: ' + error);
+        });
+});
+</script>
+</section>
+</div>
+<section class="sct">
+            <h2>Отзывы</h2>
+            <ul class="ul_comment">
+                <li class="otz">
+                    <div class="divcommaa">
+                        <span class="scorecom">0</span>
+                        <h3>Аноним</h3>
+                    </div>
+                    <p>Ожидаем комментатора
+
+                    </p>
+                </li>
+                <li class="otz">
+                    <div class="divcommaa">
+                        <span class="scorecom">0</span>
+                        <h3>Аноним</h3>
+                    </div>
+                    <p> Ожидаем комментатора
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+	</main>
+	<footer class="footer">
+		<div class="container container__footer">
+			<div class="footer__content">
+				<h4 class="footer__title">Rockstar Games</h4>
+				<p class="footer__text">&copy; Все права украдены 1945-2077;</p>
+			</div>
+			<ul class="footer__list">
+				<li class="footer__item">
+					<p>   卍卍卍卍卍卍卍卍卍卍</p>
+					<img src="img/ytepta.png" class="footer_img">
+
+
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script src="js/lightzoom.js"></script>
+<script type="text/javascript">
+jQuery('.lightzoom').lightzoom({speed: 1000, viewTitle: true, isOverlayClickClosing: true, isEscClosing: true,})
+emailjs.init("XD1b_zwI5DqWut5XY");
+</script>
+</body>
+</html>

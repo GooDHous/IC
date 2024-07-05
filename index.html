@@ -95,7 +95,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
     emailjs.sendForm('service_jafrfw9', 'template_ue1iyr7', this)
         .then(function() {
-        
+        	
         }, function(error) {
             alert('Ошибка отправки: ' + error);
         });
